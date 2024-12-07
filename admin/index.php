@@ -139,7 +139,7 @@ $data=mysqli_fetch_array($queryrun);
          include('php/seo.php');
     
      }else if(isset($_GET['editprofile'])){ ?>
-        <h2>Edit Profile</h2>
+        <h2>Editar Perfil</h2>
     <?php
          if(isset($_GET['msg'])){
              
